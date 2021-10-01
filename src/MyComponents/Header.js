@@ -31,7 +31,7 @@ export default function Header(props) {
               </a>
             </li>
           </ul>
-          <form className="form-inline my-2 my-lg-0">
+          {props.searchbar? <form className="form-inline my-2 my-lg-0">
             <input
               className="form-control mr-sm-2"
               type="search"
@@ -44,7 +44,7 @@ export default function Header(props) {
             >
               Search
             </button>
-          </form>
+          </form>: ""}
         </div>
       </nav>
     )

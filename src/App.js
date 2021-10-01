@@ -8,7 +8,7 @@ function App() {
   let myVariable = 345;
   return (
     <>
-      <Header title="My Todos List"/>
+      <Header title="My Todos List" searchbar={true}/>
       <Todos/>
       <Footer/>
     </>
