@@ -1,9 +1,10 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 
 export default function Header(props) {
     return (
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a className="navbar-brand" href="#">
+        <a className="navbar-brand font-weight-bold font-italic" href="#">
           {props.title}
         </a>
         <button
@@ -31,7 +32,7 @@ export default function Header(props) {
               </a>
             </li>
           </ul>
-          {props.searchbar? <form className="form-inline my-2 my-lg-0">
+          {props.searchBar? <form className="form-inline my-2 my-lg-0">
             <input
               className="form-control mr-sm-2"
               type="search"
@@ -48,4 +49,14 @@ export default function Header(props) {
         </div>
       </nav>
     )
+}
+
+Header.defaultProps = {
+  title: "Your Title Here",
+  searchBar: true 
+}
+
+Header.propType = {
+  title: PropTypes.string,
+  searchBar: PropTypes.bool.isRequired
 }
