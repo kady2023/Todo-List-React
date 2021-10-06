@@ -4,7 +4,7 @@ import PropTypes from 'prop-types'
 export default function Header(props) {
     return (
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a className="navbar-brand font-weight-bold font-italic" href="#">
+        <a className="navbar-brand font-italic" href="#">
           {props.title}
         </a>
         <button
