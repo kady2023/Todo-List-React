@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 export default function Header(props) {
     return (
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-        <Link className="navbar-brand font-italic" to="/">
+        <Link className="navbar-brand font-italic" to="/Todo-List-React/">
           {props.title}
         </Link>
         <button
@@ -23,7 +23,7 @@ export default function Header(props) {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav mr-auto">
             <li className="nav-item active">
-              <Link className="nav-link" to="/">
+              <Link className="nav-link" to="/Todo-List-React/">
                 Home <span className="sr-only">(current)</span>
               </Link>
             </li>
