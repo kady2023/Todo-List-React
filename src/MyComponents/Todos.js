@@ -11,6 +11,7 @@ export const Todos = (props) => {
             <h3 className = "my-3">
                 Todos List 
             </h3>
+            <br />
             {props.todos.length==0? "No Todos to display!":
             props.todos.map((todo)=>{
                 return (

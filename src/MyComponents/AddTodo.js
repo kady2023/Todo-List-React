@@ -9,11 +9,16 @@ export const AddTodo = ({addTodo}) => {
         if(!title || !desc){
             alert("Title or Description cannot be blank")
         }
-        addTodo(title, desc);
+        else{
+            addTodo(title, desc);
+            setTitle("");
+            setDesc("");
+        }
     }
   return (
     <div className="container my-3">
       <h3>Add a Todo</h3>
+      <br />
       <form onSubmit={Submit}>
         <div className="mb-3">
           <label htmlFor="title" className="form-label">Todo Title</label>
@@ -40,6 +45,8 @@ export const AddTodo = ({addTodo}) => {
           Add Todo
         </button>
       </form>
+      <br />
+      <br />
     </div>
   );
 };
