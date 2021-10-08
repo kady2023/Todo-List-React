@@ -53,7 +53,7 @@ function App() {
       <Router>
         <Header title="My Todos List" searchBar={true} />
         <Switch>
-          <Route exact path="/" render={()=>{
+          <Route exact path="/Todo-List-React/" render={()=>{
             return(
               <>
               <AddTodo addTodo={addTodo} />

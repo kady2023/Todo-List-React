@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 export default function Header(props) {
     return (
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-        <Link className="navbar-brand font-italic" to="/">
+        <Link className="navbar-brand font-italic" to="/Todo-List-React/">
           {props.title}
         </Link>
         <button
