@@ -12,12 +12,9 @@ export const Todos = (props) => {
                 Todos List 
             </h3>
             <br />
-            {props.todos.length==0? "No Todos to display!":
+            {props.todos.length===0? "No Todos to display!":
             props.todos.map((todo)=>{
-                return (
-                <>
-                <TodoItem todo = {todo} key={todo.sno} onDelete={props.onDelete}/> <hr/>
-                </>)
+                return (<TodoItem todo = {todo} key={todo.sno} onDelete={props.onDelete}/>)
             })
             }
         </div>
