@@ -1,6 +1,6 @@
 # Todo-List
 
-![Project Image](project-image-url)
+![Project Image](public/TodoListReact.png)
 
 > This is a Todo-list web-app built using React framework to keep a record of all the task you need to do.
 
@@ -11,20 +11,19 @@ You're sections headers will be used to reference location of destination.
 
 - [Description](#description)
 - [How To Use](#how-to-use)
-- [References](#references)
-- [License](#license)
 - [Author Info](#author-info)
 
 ---
 
 ## Description
 
-Creating ReadMe's for your Github repository can be tedious.  I hope this template can save you time and effort as well as provide you with some consistency across your projects.
+This is a Todo List web-application, you can keep a record of all the tasks you need to do. This will help you remember the tasks.
 
 #### Technologies
 
-- Technology 1
-- Technology 2
+- ReactJS
+- Bootstrap
+- Github
 
 [Back To The Top](#read-me-template)
 
@@ -32,47 +31,13 @@ Creating ReadMe's for your Github repository can be tedious.  I hope this templa
 
 ## How To Use
 
-#### Installation
+#### Initialisation
 
+Open website [TodoList.com](https://kady2023.github.io/Todo-List-React/)
 
+#### Enter Data
 
-#### API Reference
-
-```html
-    <p>dummy code</p>
-```
-[Back To The Top](#read-me-template)
-
----
-
-## References
-[Back To The Top](#read-me-template)
-
----
-
-## License
-
-MIT License
-
-Copyright (c) [2017] [James Q Quick]
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+Now add all the tasks that you want to do and keep a record. Delete them on completion.
 
 [Back To The Top](#read-me-template)
 
@@ -80,7 +45,7 @@ SOFTWARE.
 
 ## Author Info
 
-- Twitter - [@jamesqquick](https://twitter.com/jamesqquick)
-- Website - [James Q Quick](https://jamesqquick.com)
+- Twitter - [@kady_2023](https://twitter.com/kady_2023)
+- Linkedin - [@nitin-kadyan](https://www.linkedin.com/in/nitin-kadyan)
 
 [Back To The Top](#read-me-template)
